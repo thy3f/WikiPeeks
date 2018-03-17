@@ -6,3 +6,6 @@
 /Files/January_1.txt
 /obj/Debug
 *.lock
+/WikiPeeksClass/bin/Debug
+/WikiPeeksClass/obj/Debug
+/TestConsoleApp

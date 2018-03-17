@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WikiPeeks")]
+[assembly: AssemblyTitle("WikiPeeksClass")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WikiPeeks")]
+[assembly: AssemblyProduct("WikiPeeksClass")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f961e2da-3d9e-46bd-8e5e-1dd656c90076")]
+[assembly: Guid("0cab9475-42db-414d-961b-0305de780df6")]
 
 // Version information for an assembly consists of the following four values:
 //
