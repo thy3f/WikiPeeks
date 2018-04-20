@@ -26,7 +26,7 @@ namespace WikiPeeks.Helpers
                 return date;
             }
 
-            set => date = Properties.Resources.url.Substring(Properties.Resources.url.LastIndexOf('/') + 1);
+            set => date = value;
         }
 
         public static string getDate()

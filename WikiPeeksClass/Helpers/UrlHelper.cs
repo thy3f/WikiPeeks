@@ -18,7 +18,7 @@ namespace WikiPeeks.Helpers
                 return url;
             }
 
-            set => url = SetUrl(DateHelper.getMonth(), DateHelper.getDay());
+            set => url = value;
         }
 
         public static string SetUrl(string month, string day)

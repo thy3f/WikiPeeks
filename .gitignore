@@ -3,3 +3,10 @@
 ################################################################################
 
 /Files
+/TestConsoleApp/bin/Debug
+/TestConsoleApp/obj/Debug
+/TestConsoleApp1/obj/Debug
+/TestConsoleApp1/bin/Debug
+/WikiPeeksClass/obj/Debug
+/WikiPeeksClass/bin/Debug
+/.vs/WikiPeeksClass/v15/Server/sqlite3/db.lock

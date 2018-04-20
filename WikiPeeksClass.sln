@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiPeeks", "WikiPeeksClass\WikiPeeks.csproj", "{0CAB9475-42DB-414D-961B-0305DE780DF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApp", "TestConsoleApp\TestConsoleApp.csproj", "{756E67FA-7A9A-4FEF-8D22-31ED637D0ED5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApp1", "TestConsoleApp1\TestConsoleApp1.csproj", "{518E07C7-828F-446E-868A-DED1F4ECEE88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{0CAB9475-42DB-414D-961B-0305DE780DF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CAB9475-42DB-414D-961B-0305DE780DF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CAB9475-42DB-414D-961B-0305DE780DF6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{756E67FA-7A9A-4FEF-8D22-31ED637D0ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{756E67FA-7A9A-4FEF-8D22-31ED637D0ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{756E67FA-7A9A-4FEF-8D22-31ED637D0ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{756E67FA-7A9A-4FEF-8D22-31ED637D0ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{518E07C7-828F-446E-868A-DED1F4ECEE88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{518E07C7-828F-446E-868A-DED1F4ECEE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{518E07C7-828F-446E-868A-DED1F4ECEE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{518E07C7-828F-446E-868A-DED1F4ECEE88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
