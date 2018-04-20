@@ -10,3 +10,7 @@
 /WikiPeeksClass/obj/Debug
 /WikiPeeksClass/bin/Debug
 /.vs/WikiPeeksClass/v15/Server/sqlite3/db.lock
+/obj/Docker
+/TestConsoleApp1/obj/Release
+/WikiPeeksAPI.Tests/obj
+/WikiPeeksClass/obj/Release

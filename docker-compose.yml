@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  wikipeeksapi:
+    image: wikipeeksapi
+    build:
+      context: .\WikiPeeksAPI
+      dockerfile: Dockerfile
