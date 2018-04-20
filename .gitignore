@@ -2,10 +2,4 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/bin/Debug
-/Files/January_1.txt
-/obj/Debug
-*.lock
-/WikiPeeksClass/bin/Debug
-/WikiPeeksClass/obj/Debug
-/TestConsoleApp
+/Files
