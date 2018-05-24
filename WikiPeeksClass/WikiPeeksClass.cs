@@ -59,9 +59,11 @@ namespace WikiPeeks
         {
             List<List<string>> list = new List<List<string>>();
             List<string> tempList = new List<string>();
+            
             string _date = "";
             _date = DateHelper.monthToString(date) + "_" + DateHelper.dayToString(date.Day);
-            //RequestHelper.Url = 
+            tempList.Add(_date);
+            //list.Add(tempList);
 
             do
             {
@@ -69,7 +71,7 @@ namespace WikiPeeks
                 list.Add(tempList);
                 DateHelper.nextDay();
                 Console.WriteLine(DateHelper.Date);
-                Console.ReadLine();
+                //Console.ReadLine();
             } while (DateHelper.Date != _date);
 
             return list;

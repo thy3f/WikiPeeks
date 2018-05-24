@@ -25,12 +25,12 @@ namespace TestConsoleApp1
                 {
                     Console.WriteLine(line);
                 }
-                Console.ReadLine();
+                //Console.ReadLine();
             }
             //log.Info("Info logging");
             //log.Error("This is my error", ex);
             //log4net.GlobalContext.Properties["testProperty"] = "This is my test property information";
-            Console.ReadLine();
+            //Console.ReadLine();
         }
     }
 }

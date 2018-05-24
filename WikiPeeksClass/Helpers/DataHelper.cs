@@ -49,6 +49,7 @@ namespace WikiPeeks.Helpers
         {
             htmlNode = SetHtmlNode();
             list = new List<string>();
+            list.Add(DateHelper.Date.ToString());
 
             foreach (var node in htmlNode)
             {
