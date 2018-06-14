@@ -42,7 +42,13 @@ namespace WikiPeeks.Helpers
         private static HtmlNodeCollection SetHtmlNode()
         {
             doc = ResponseHelper.GetHtml();
-            return doc.DocumentNode.SelectNodes("//div[contains(@class, \"mw-parser-output\")]/ul/li");
+            HtmlNodeCollection htmlNodeCollection = doc.DocumentNode.SelectNodes("//div[contains(@class, \"mw-parser-output\")]/h2");
+            HtmlNodeCollection tempCollection = doc.DocumentNode.SelectNodes("//div[contains(@class, \"mw-parser-output\")]/ul/li");
+            foreach (var item in tempCollection)
+            {
+                htmlNodeCollection.Add(item);
+            }
+            return htmlNodeCollection;
         }
 
         public static List<string> GetList()
@@ -55,6 +61,7 @@ namespace WikiPeeks.Helpers
             {
                 if(RegexHelper.IsMatch(node.InnerText))
                 {
+                    //TODO add category
                     list.Add(node.InnerText);
                 }
             }
