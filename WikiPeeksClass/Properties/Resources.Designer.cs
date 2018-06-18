@@ -79,7 +79,7 @@ namespace WikiPeeks.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to \d+ – .*.
+        ///   Looks up a localized string similar to \d.* – .*.
         /// </summary>
         internal static string pattern {
             get {

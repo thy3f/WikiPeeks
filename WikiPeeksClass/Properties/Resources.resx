@@ -124,7 +124,7 @@
     <value>//div[contains(@class, "mw-parser-output")]/ul/li</value>
   </data>
   <data name="pattern" xml:space="preserve">
-    <value>\d+ – .*</value>
+    <value>\d.* – .*</value>
   </data>
   <data name="url" xml:space="preserve">
     <value>https://en.wikipedia.org/wiki/January_1</value>
