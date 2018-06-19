@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\DBHelper.cs" />
+    <Compile Include="Helpers\WikiEntry.cs" />
     <Compile Include="WikiPeeksClass.cs" />
     <Compile Include="Helpers\DataHelper.cs" />
     <Compile Include="Helpers\DateHelper.cs" />

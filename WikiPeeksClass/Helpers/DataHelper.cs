@@ -76,7 +76,7 @@ namespace WikiPeeks.Helpers
                             tempYear = -9999;
                         }
 
-                        list.Add(categoryList[categoryId] + " – " + tempDate.ToString() + " - " + node.InnerText.Split('–')[1].TrimEnd());
+                        list.Add(categoryList[categoryId] + " | " + tempDate.ToString() + " | " + node.InnerText.Split('–')[1].TrimEnd());
                     }
                 }
                 return list;

@@ -35,5 +35,12 @@ namespace WikiPeeks.Helpers
                 GetList();
             FileHelper.WriteToFile(list);
         }
+
+        public static void WriteToDB()
+        {
+            if (list == null || list.Count == 0)
+                GetList();
+            DBHelper.WriteToDB(list);
+        }
     }
 }

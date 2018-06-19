@@ -55,6 +55,19 @@ namespace WikiPeeks
             } while (DateHelper.Date != _date);
         }
 
+        public void WriteToDB(DateTime date)
+        {
+            string _date = "";
+            _date = DateHelper.monthToString(date) + "_" + DateHelper.dayToString(date.Day);
+
+            do
+            {
+                ListHelper.WriteToDB();
+                DateHelper.nextDay();
+                Console.WriteLine(DateHelper.Date);
+            } while (DateHelper.Date != _date);
+        }
+
         public List<List<string>> GetList(DateTime date)
         {
             List<List<string>> list = new List<List<string>>();
@@ -81,6 +94,7 @@ namespace WikiPeeks
         {
             do
             {
+                //ListHelper.WriteToDB();
                 ListHelper.WriteToFile();
                 DateHelper.nextDay();
                 Console.WriteLine(DateHelper.Date);
