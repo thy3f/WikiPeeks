@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiPeeks", "WikiPeeksClass
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApp1", "TestConsoleApp1\TestConsoleApp1.csproj", "{518E07C7-828F-446E-868A-DED1F4ECEE88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiPeeksAngular", "WikiPeeksAngular\WikiPeeksAngular.csproj", "{A9727603-1441-4E48-9BED-0F5B4B806529}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WikiPeeksAngular", "WikiPeeksAngular\WikiPeeksAngular.csproj", "{2C7EB71C-F457-428A-B5DE-F40A4BBBB2B2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{518E07C7-828F-446E-868A-DED1F4ECEE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{518E07C7-828F-446E-868A-DED1F4ECEE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{518E07C7-828F-446E-868A-DED1F4ECEE88}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A9727603-1441-4E48-9BED-0F5B4B806529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A9727603-1441-4E48-9BED-0F5B4B806529}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A9727603-1441-4E48-9BED-0F5B4B806529}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A9727603-1441-4E48-9BED-0F5B4B806529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C7EB71C-F457-428A-B5DE-F40A4BBBB2B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C7EB71C-F457-428A-B5DE-F40A4BBBB2B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C7EB71C-F457-428A-B5DE-F40A4BBBB2B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C7EB71C-F457-428A-B5DE-F40A4BBBB2B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

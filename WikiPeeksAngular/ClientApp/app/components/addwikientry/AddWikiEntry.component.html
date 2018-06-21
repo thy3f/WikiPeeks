@@ -1,0 +1,75 @@
+﻿<h1>{{title}}</h1>
+<h3>WikiEntry</h3>
+<hr />
+<form [formGroup]="wikiEntryForm" (ngSubmit)="save()" #formDir="ngForm" novalidate>
+
+    <div class="form-group row">
+        <label class=" control-label col-md-12" for="Day">Day</label>
+        <div class="col-md-4">
+            <input class="form-control" type="text" formControlName="day">
+        </div>
+        <span class="text-danger" *ngIf="day.invalid && formDir.submitted">
+            Day is required.
+        </span>
+    </div>
+
+    <div class="form-group row">
+        <label class=" control-label col-md-12" for="Month">Month</label>
+        <div class="col-md-4">
+            <input class="form-control" type="text" formControlName="month">
+        </div>
+        <span class="text-danger" *ngIf="month.invalid && formDir.submitted">
+            Month is required.
+        </span>
+    </div>
+
+    <div class="form-group row">
+        <label class=" control-label col-md-12" for="Year">Year</label>
+        <div class="col-md-4">
+            <input class="form-control" type="text" formControlName="year">
+        </div>
+        <span class="text-danger" *ngIf="year.invalid && formDir.submitted">
+            Year is required.
+        </span>
+    </div>
+
+    <div class="form-group row">
+        <label class=" control-label col-md-12" for="Description">Description</label>
+        <div class="col-md-4">
+            <input class="form-control" type="text" formControlName="description">
+        </div>
+        <span class="text-danger" *ngIf="description.invalid && formDir.submitted">
+            Description is required.
+        </span>
+    </div>
+
+    <div class="form-group row">
+        <label class="control-label col-md-12" for="Category">Category</label>
+        <div class="col-md-4">
+            <select class="form-control" data-val="true" formControlName="category">
+                <option value="">-- Select Category --</option>
+                <option value="Events">Events</option>
+                <option value="Births">Births</option>
+                <option value="Deaths">Deaths</option>
+            </select>
+        </div>
+        <span class="text-danger" *ngIf="category.invalid && formDir.submitted">
+            Category is required
+        </span>
+    </div>
+
+    <div class="form-group row">
+        <label class="control-label col-md-12" for="DateAdded">Date Added</label>
+        <div class="col-md-4">
+            <input class="form-control" type="date" formControlName="dateadded">
+        </div>
+        <span class="text-danger" *ngIf="dateadded.invalid && formDir.submitted">
+            Date Added is required
+        </span>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-default">Save</button>
+        <button class="btn" (click)="cancel()">Cancel</button>
+    </div>
+</form>

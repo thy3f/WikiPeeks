@@ -1,0 +1,39 @@
+﻿<h1>WikiEntry Data</h1>
+
+<p>This component demonstrates fetching WikiEntry data from the server.</p>
+
+<p *ngIf="!wikiEntryList"><em>Loading...</em></p>
+
+<p>
+    <a [routerLink]="['/create-wikientry']">Create New</a>
+</p>
+
+<table class='table' *ngIf="wikiEntryList">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Day</th>
+            <th>Month</th>
+            <th>Year</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th>DateAdded</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let wikiEntry of wikiEntryList">
+            <td>{{ wikiEntry.id }}</td>
+            <td>{{ wikiEntry.day }}</td>
+            <td>{{ wikiEntry.month }}</td>
+            <td>{{ wikiEntry.year }}</td>
+            <td>{{ wikiEntry.description }}</td>
+            <td>{{ wikiEntry.category }}</td>
+            <td>{{ wikiEntry.dateadded }}</td>
+            <td>
+            <td>
+                <a [routerLink]="['/WikiEntry/edit/', wikiEntry.id]">Edit</a> |
+                <a [routerLink]="" (click)="delete(wikiEntry.id)">Delete</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
